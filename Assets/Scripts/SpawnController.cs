@@ -6,17 +6,21 @@ public class SpawnController : MonoBehaviour
 {
     public GameObject Enemy;
     public float spawnTimer;
+    public GameObject earth;
+    
 
     void Start()
     {
-        InvokeRepeating("Spawn", spawnTimer, 0);
+        InvokeRepeating("Spawn", spawnTimer, spawnTimer);
     }
 
-
+    
     void Spawn()
     {
         SetCoordinates();
+
         Instantiate(Enemy);
+        //Instantiate(Enemy, Random.insideUnitCircle * 5, earth.transform.rotation);
     }
 
     void SetCoordinates()
