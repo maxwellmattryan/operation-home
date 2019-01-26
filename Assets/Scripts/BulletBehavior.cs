@@ -7,15 +7,18 @@ public class BulletBehavior : MonoBehaviour
     public GameObject player;
     public GameObject bullet;
 
+    public bool play_shoot;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            shoot();
+            play_shoot = true;
+            Shoot();
         } 
     }
 
-    void shoot()
+    void Shoot()
     {
         Instantiate(bullet, player.transform.position, player.transform.rotation);
     }

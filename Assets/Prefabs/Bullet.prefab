@@ -93,6 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 50
   bullet: {fileID: 6595463184597686501}
+  sound_shoot_path: event:/Player/Shoot
 --- !u!61 &5562256991167089653
 BoxCollider2D:
   m_ObjectHideFlags: 0
