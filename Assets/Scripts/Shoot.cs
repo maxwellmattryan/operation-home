@@ -21,13 +21,13 @@ public class Shoot : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Enemy")
-        {
-            Destroy(bullet);
-            Destroy(enemy);
-        }
-    }
+    //void OnTriggerEnter2D(Collider2D col)
+    //{
+    //    if (col.gameObject.tag == "Enemy")
+    //    {
+    //        Destroy(bullet);
+    //        Destroy(enemy);
+    //    }
+    //}
 
 }
