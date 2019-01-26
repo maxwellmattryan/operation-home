@@ -10,16 +10,10 @@ public class Shoot : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, 1);
-
     }
 
-   
     void Update()
     {
         bullet.transform.Translate(Vector3.up * Time.deltaTime * speed);
-        
     }
-
-   
-
 }
