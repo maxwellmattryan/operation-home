@@ -6,6 +6,7 @@ public class Shoot : MonoBehaviour
 {
     public float speed;
     public GameObject bullet;
+    public GameObject enemy;
 
     void Start()
     {
@@ -20,6 +21,13 @@ public class Shoot : MonoBehaviour
         
     }
 
-   
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Enemy")
+        {
+            Destroy(bullet);
+            Destroy(enemy);
+        }
+    }
 
 }
