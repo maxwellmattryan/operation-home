@@ -9,7 +9,7 @@ public class SpawnController : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("Spawn", spawnTimer, 0);
+        InvokeRepeating("Spawn", spawnTimer, spawnTimer);
     }
 
 
@@ -21,7 +21,7 @@ public class SpawnController : MonoBehaviour
 
     void SetCoordinates()
     {
-        Enemy.transform.RotateAround(Vector3.zero, Vector3.forward, Random.Range(0, 360));
-        Enemy.transform.LookAt(Vector3.zero);
+        transform.RotateAround(Vector3.zero, Vector3.forward, Random.Range(0, 360));
+        transform.LookAt(Vector3.zero);
     }
 }
