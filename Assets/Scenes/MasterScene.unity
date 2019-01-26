@@ -160,6 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1294564809}
   bullet: {fileID: 6595463184597686501, guid: 7512337428033b843990706e92003dd3, type: 3}
+  play_shoot: 0
 --- !u!65 &76191858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -320,6 +321,7 @@ GameObject:
   - component: {fileID: 1176239544}
   - component: {fileID: 1176239543}
   - component: {fileID: 1176239542}
+  - component: {fileID: 1176239545}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -392,6 +394,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176239545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176239541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!1 &1215970687
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +540,7 @@ GameObject:
   - component: {fileID: 1294564812}
   - component: {fileID: 1294564811}
   - component: {fileID: 1294564810}
+  - component: {fileID: 1294564815}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -619,6 +635,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &1294564815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294564809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecfc44d5d7a98b419f056b6f7759c79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound_shoot_path: event:/Player/Shoot
 --- !u!1 &1340233839
 GameObject:
   m_ObjectHideFlags: 0
