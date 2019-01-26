@@ -12,6 +12,7 @@ public class SpawnController : MonoBehaviour
         InvokeRepeating("Spawn", spawnTimer, 0);
     }
 
+
     void Spawn()
     {
         SetCoordinates();

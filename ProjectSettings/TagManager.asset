@@ -4,11 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
   - Border
-=======
-  - Earth
->>>>>>> 03617d5936820c2b91c38f9b44f23e954f112b51
+  - Enemy
   layers:
   - Default
   - TransparentFX
