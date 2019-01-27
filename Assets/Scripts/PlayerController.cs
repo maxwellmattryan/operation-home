@@ -8,10 +8,8 @@ public class PlayerController : MonoBehaviour
     public float speed;
 
     AudioSource sound_playerRotateSource;
-    public AudioClip sound_playerRotate_Head;
-    public AudioClip sound_playerRotate_Body;
-    public AudioClip sound_playerRotate_Tail;
-    bool moveOneShot;
+    public AudioClip sound_playerRotateClip_Head;
+    public AudioClip sound_playerRotateClip_Body;
 
     void Start()
     {
@@ -32,11 +30,14 @@ public class PlayerController : MonoBehaviour
         // sounds conditionals
         if ((Input.GetKeyDown(KeyCode.D)) || (Input.GetKeyDown(KeyCode.RightArrow)) || (Input.GetKeyDown(KeyCode.A)) || (Input.GetKeyDown(KeyCode.LeftArrow)))
         {
-            sound_playerRotateSource.PlayOneShot(sound_playerRotate_Head, 1.0f);
+            sound_playerRotateSource.clip = sound_playerRotateClip_Head;
+            sound_playerRotateSource.PlayOneShot(sound_playerRotateClip_Head);
+            sound_playerRotateSource.clip = sound_playerRotateClip_Body;
+            sound_playerRotateSource.Play();
         }
         if ((Input.GetKeyUp(KeyCode.D)) || (Input.GetKeyUp(KeyCode.RightArrow)) || (Input.GetKeyUp(KeyCode.A)) || (Input.GetKeyUp(KeyCode.LeftArrow)))
         {
-            sound_playerRotateSource.PlayOneShot(sound_playerRotate_Tail, 1.0f);
+            sound_playerRotateSource.Stop();
         }
     }
 }
