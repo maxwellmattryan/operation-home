@@ -29,7 +29,7 @@ MonoBehaviour:
   - Platform: 1
     Value: 48000
   - Platform: 2
-    Value: 48000
+    Value: 0
   LiveUpdateSettings:
   - Platform: 1
     Value: 1
@@ -59,6 +59,5 @@ MonoBehaviour:
   - Platform: 2
     Value: 32
   Plugins: []
-  MasterBanks:
-  - Master Bank
+  MasterBanks: []
   Banks: []

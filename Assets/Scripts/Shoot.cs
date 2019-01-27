@@ -11,14 +11,10 @@ public class Shoot : MonoBehaviour
     [FMODUnity.EventRef]
     public string sound_shoot_path;
 
-    private void Awake()
+    void Start()
     {
         Destroy(gameObject, 1);
         sound_shoot = FMODUnity.RuntimeManager.CreateInstance(sound_shoot_path);
-    }
-
-    void Start()
-    {
         sound_shoot.start();
       
     }

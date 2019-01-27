@@ -18,18 +18,14 @@ public class SpawnController : MonoBehaviour
     void Spawn()
     {
         SetCoordinates();
-<<<<<<< HEAD
 
         Instantiate(Enemy);
         //Instantiate(Enemy, Random.insideUnitCircle * 5, earth.transform.rotation);
-=======
-        Instantiate(Enemy,transform.position,Quaternion.identity);
->>>>>>> 343ba65381ed70057ab06aea40c0fa05f501853d
     }
 
     void SetCoordinates()
     {
-        Enemy.transform.RotateAround(Vector3.zero, Vector3.back, Random.Range(0, 360));
-        Enemy.transform.LookAt(Vector3.zero);
+        transform.RotateAround(Vector3.zero, Vector3.forward, Random.Range(0, 360));
+        transform.LookAt(Vector3.zero);
     }
 }
