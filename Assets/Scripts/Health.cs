@@ -28,7 +28,7 @@ public class Health : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             lifePoints -= 1;
-            healthBar.gameObject.transform.localScale += new Vector3(-1, 0, 0);
+            healthBar.gameObject.transform.localScale += new Vector3(-8, 0, 0);
 
         }
 
