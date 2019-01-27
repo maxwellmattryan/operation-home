@@ -13,9 +13,10 @@ public class Shoot : MonoBehaviour
 
     void Start()
     {
+        Destroy(gameObject, 1);
         sound_shoot = FMODUnity.RuntimeManager.CreateInstance(sound_shoot_path);
         sound_shoot.start();
-        Destroy(gameObject, 1);
+      
     }
 
     void Update()
