@@ -104,6 +104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47bd757dfb31c44ebe7791d8431dd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 1069741030833464247, guid: 71c0a5f5c82114442b9f102b25edf34a, type: 3}
+  Enemy: {fileID: 554914792358428642, guid: 71c0a5f5c82114442b9f102b25edf34a, type: 3}
   spawnTimer: 1
-  earth: {fileID: 2554083274954922890, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
+  earth: {fileID: 2554083274954922886, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
