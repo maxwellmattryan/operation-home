@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Undefined
   - Enemy
-  - Earth
-  - Bullet
   layers:
   - Default
   - TransparentFX
