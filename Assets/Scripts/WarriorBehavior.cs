@@ -9,8 +9,8 @@ public class WarriorBehavior : MonoBehaviour
     public GameObject earth;
     public Transform target;//set target from inspector instead of looking in Update
 
+    AudioSource source_implosion;
     public AudioClip clip_implosion;
-    public AudioSource source_implosion;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,7 @@ public class WarriorBehavior : MonoBehaviour
         //Vector3 
 
         source_implosion = GetComponent<AudioSource>();
+        source_implosion.clip = clip_implosion;
     }
 
     // Update is called once per frame
@@ -42,6 +43,7 @@ public class WarriorBehavior : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             Debug.Log("Sound here");
+            source_implosion.clip = clip_implosion;
             source_implosion.Play();
             Destroy(other.gameObject);
             Destroy(this.gameObject);
