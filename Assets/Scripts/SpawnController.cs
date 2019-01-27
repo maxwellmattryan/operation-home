@@ -18,19 +18,7 @@ public class SpawnController : MonoBehaviour
     void Spawn()
     {
         SetCoordinates();
-<<<<<<< HEAD
-
-        Instantiate(Enemy);
-        //Instantiate(Enemy, Random.insideUnitCircle * 5, earth.transform.rotation);
-=======
-<<<<<<< HEAD
-
-        Instantiate(Enemy);
-        //Instantiate(Enemy, Random.insideUnitCircle * 5, earth.transform.rotation);
-=======
-        Instantiate(Enemy,transform.position,Quaternion.identity);
->>>>>>> 343ba65381ed70057ab06aea40c0fa05f501853d
->>>>>>> parent of d62832b... add
+        Instantiate(Enemy,Random.insideUnitCircle * 5,Quaternion.identity);
     }
 
     void SetCoordinates()
