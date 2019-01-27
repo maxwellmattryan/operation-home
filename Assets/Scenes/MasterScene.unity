@@ -441,6 +441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 1215970687}
   spawnTimer: 1
+  earth: {fileID: 0}
 --- !u!65 &1215970689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -539,6 +540,11 @@ GameObject:
   - component: {fileID: 1294564812}
   - component: {fileID: 1294564811}
   - component: {fileID: 1294564810}
+<<<<<<< HEAD
+  - component: {fileID: 1294564816}
+  - component: {fileID: 1294564815}
+=======
+>>>>>>> 343ba65381ed70057ab06aea40c0fa05f501853d
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -633,6 +639,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+<<<<<<< HEAD
+--- !u!114 &1294564815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294564809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecfc44d5d7a98b419f056b6f7759c79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1294564816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294564809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eb83e02e6b7c544883b9ed914bdfc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1294564809}
+  bullet: {fileID: 6595463184597686501, guid: 7512337428033b843990706e92003dd3, type: 3}
+  play_shoot: 0
+=======
+>>>>>>> 343ba65381ed70057ab06aea40c0fa05f501853d
 --- !u!1 &1340233839
 GameObject:
   m_ObjectHideFlags: 0
