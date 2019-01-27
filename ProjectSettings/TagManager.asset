@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Earth
   - Bullet
+  - Health Bar
   layers:
   - Default
   - TransparentFX
