@@ -7,10 +7,18 @@ public class BulletBehavior : MonoBehaviour
     public GameObject player;
     public GameObject bullet;
 
+    AudioSource sound_shootSource;
+
+    void Start()
+    {
+        sound_shootSource = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            sound_shootSource.Play();
             Shoot();
         } 
     }
