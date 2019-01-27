@@ -7,13 +7,10 @@ public class BulletBehavior : MonoBehaviour
     public GameObject player;
     public GameObject bullet;
 
-    public bool play_shoot;
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            play_shoot = true;
             Shoot();
         } 
     }
