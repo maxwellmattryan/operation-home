@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6101419835539845803}
   - component: {fileID: 5606156572445375543}
   - component: {fileID: 4018878489955006507}
+  - component: {fileID: 374048677442226429}
   m_Layer: 0
   m_Name: Warrior
   m_TagString: Untagged
@@ -94,7 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 797cad593008de048b5929f7ad9719ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  movementSpeed: 0
+  earth: {fileID: 0}
 --- !u!95 &5606156572445375543
 Animator:
   serializedVersion: 3
@@ -153,3 +155,24 @@ PolygonCollider2D:
       - {x: -15.207329, y: 0.81027544}
       - {x: -0.0075683594, y: -7.0209827}
       - {x: 13.159935, y: -0.3802479}
+--- !u!50 &374048677442226429
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069741030833464247}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
