@@ -16,8 +16,8 @@ public class Ambience : MonoBehaviour
 
     void Update()
     {
-        // IF ENEMY KILLED, INCREASE PITCH
-        IncreasePitch();
+        // IF HEALTH LOWERED, INCREASE PITCH
+        //IncreasePitch();
     }
 
     void IncreasePitch()
