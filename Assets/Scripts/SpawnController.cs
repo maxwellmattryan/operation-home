@@ -6,7 +6,7 @@ public class SpawnController : MonoBehaviour
 {
     public GameObject Enemy;
     public float spawnTimer;
-    public GameObject earth;
+    public Transform earth;
 
     void Start()
     {
@@ -22,5 +22,6 @@ public class SpawnController : MonoBehaviour
     void SetCoordinates()
     {
         Enemy.transform.RotateAround(Vector3.zero, Vector3.forward, Random.Range(0, 360));
+      
     }
 }
