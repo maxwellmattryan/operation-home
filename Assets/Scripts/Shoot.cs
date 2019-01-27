@@ -11,6 +11,12 @@ public class Shoot : MonoBehaviour
     [FMODUnity.EventRef]
     public string sound_shoot_path;
 
+<<<<<<< HEAD
+    void Start()
+    {
+        Destroy(gameObject, 1);
+        sound_shoot = FMODUnity.RuntimeManager.CreateInstance(sound_shoot_path);
+=======
     private void Awake()
     {
         Destroy(gameObject, 1);
@@ -19,6 +25,7 @@ public class Shoot : MonoBehaviour
 
     void Start()
     {
+>>>>>>> parent of d62832b... add
         sound_shoot.start();
       
     }
