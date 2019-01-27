@@ -27,8 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069741030833464247}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: 0.94832623, w: -0.31729707}
   m_LocalPosition: {x: -32.015453, y: -25.229376, z: -0.11110619}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.752113, y: 0.8812674, z: 0}
+>>>>>>> 9806ff0a9979d3c47608bdeaf29960b58f6d8238
   m_LocalScale: {x: 0.125, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -94,8 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 797cad593008de048b5929f7ad9719ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   movementSpeed: 0
   earth: {fileID: 0}
+=======
+  speed: 5
+>>>>>>> 9806ff0a9979d3c47608bdeaf29960b58f6d8238
 --- !u!95 &5606156572445375543
 Animator:
   serializedVersion: 3
