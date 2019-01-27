@@ -8,7 +8,8 @@ public class WarriorBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Quaternion lookRotation = (z.transform.position - transform.position).normalized;
+        Vector3 
     }
 
     // Update is called once per frame
