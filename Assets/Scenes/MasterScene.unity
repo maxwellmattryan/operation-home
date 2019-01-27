@@ -552,6 +552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth
       objectReference: {fileID: 0}
+    - target: {fileID: 2554083274954922890, guid: b3fec1b130224b843ab7e663f1841f0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Earth
+      objectReference: {fileID: 0}
     - target: {fileID: 2554083274954922886, guid: b3fec1b130224b843ab7e663f1841f0c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -606,6 +611,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701986062758794156, guid: b3fec1b130224b843ab7e663f1841f0c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2554083274954922885, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
