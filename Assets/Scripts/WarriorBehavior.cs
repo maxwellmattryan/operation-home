@@ -9,8 +9,8 @@ public class WarriorBehavior : MonoBehaviour
     public GameObject earth;
     public Transform target;//set target from inspector instead of looking in Update
 
-    public AudioClip clip_explosion;
-    AudioSource source_explosion;
+    public AudioClip clip_implosion;
+    public AudioSource source_implosion;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,7 @@ public class WarriorBehavior : MonoBehaviour
         //Quaternion lookRotation = (z.transform.position - transform.position).normalized;
         //Vector3 
 
-        source_explosion = GetComponent<AudioSource>();
+        source_implosion = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -41,7 +41,8 @@ public class WarriorBehavior : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            source_explosion.Play();
+            Debug.Log("Sound here");
+            source_implosion.Play();
             Destroy(other.gameObject);
             Destroy(this.gameObject);
             //increment score
