@@ -39,12 +39,13 @@ public class WarriorBehavior : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
+            Destroy(other.gameObject);
             Destroy(this.gameObject);
             //increment score
         }
         else if (other.gameObject.CompareTag("Earth"))
         {
-            Destroy(this.gameObject);
+            Destroy(this.gameObject,0.5f);
             //damage earth
         }
     }

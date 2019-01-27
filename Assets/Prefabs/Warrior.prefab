@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1069741030833464245}
   - component: {fileID: 1069741030833464246}
-  - component: {fileID: 6101419835539845803}
   - component: {fileID: 5606156572445375543}
+  - component: {fileID: 6101419835539845803}
   - component: {fileID: 4018878489955006507}
   - component: {fileID: 374048677442226429}
   m_Layer: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069741030833464247}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9763045, w: -0.21640137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -36.560806, y: -18.02278, z: 0}
   m_LocalScale: {x: 0.125, y: 0.25, z: 1}
   m_Children: []
@@ -83,21 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6101419835539845803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069741030833464247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 797cad593008de048b5929f7ad9719ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  earth: {fileID: 2554083274954922890, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
-  target: {fileID: 2554083274954922886, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
 --- !u!95 &5606156572445375543
 Animator:
   serializedVersion: 3
@@ -117,6 +102,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6101419835539845803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069741030833464247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797cad593008de048b5929f7ad9719ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  earth: {fileID: 2554083274954922890, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
+  target: {fileID: 2554083274954922886, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
 --- !u!60 &4018878489955006507
 PolygonCollider2D:
   m_ObjectHideFlags: 0
