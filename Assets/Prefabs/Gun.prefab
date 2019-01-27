@@ -251,6 +251,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Earth: {fileID: 0}
   speed: 200
+  sound_playerRotate_Head: {fileID: 0}
+  sound_playerRotate_Body: {fileID: 0}
+  sound_playerRotate_Tail: {fileID: 0}
 --- !u!212 &2287228193350337189
 SpriteRenderer:
   m_ObjectHideFlags: 0
