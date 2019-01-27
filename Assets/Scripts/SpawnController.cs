@@ -22,6 +22,5 @@ public class SpawnController : MonoBehaviour
     void SetCoordinates()
     {
         Enemy.transform.RotateAround(Vector3.zero, Vector3.forward, Random.Range(0, 360));
-      
     }
 }
