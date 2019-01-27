@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3972636569444527805}
   - component: {fileID: 3972636569444527802}
   - component: {fileID: 3972636569444527803}
+  - component: {fileID: 3972636569444527800}
   - component: {fileID: 3972636569444527801}
-  - component: {fileID: 6446540863739413190}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Enemy
@@ -79,6 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3972636569444527800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972636569444527686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3972636569444527801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,29 +107,3 @@ MonoBehaviour:
   Enemy: {fileID: 1069741030833464247, guid: 71c0a5f5c82114442b9f102b25edf34a, type: 3}
   spawnTimer: 1
   earth: {fileID: 2554083274954922890, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
---- !u!61 &6446540863739413190
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3972636569444527686}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
