@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class WarriorBehavior : MonoBehaviour
 {
-    public float movementSpeed;
+    public float speed;
+    // public float movementSpeed;
     public GameObject earth;
 
     // Start is called before the first frame update
@@ -19,9 +20,9 @@ public class WarriorBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        transform.LookAt(earth.transform);
-        transform.position += transform.forward * movementSpeed * Time.deltaTime;
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+       // transform.LookAt(earth.transform);
+       // transform.position += transform.forward * movementSpeed * Time.deltaTime;
     }
 
     void OnTriggerEnter2D(Collider2D other)

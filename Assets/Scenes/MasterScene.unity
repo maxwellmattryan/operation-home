@@ -179,6 +179,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 1706322434944420133, guid: 78463e7a411be044693c357c21f992c3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1706322434944420129, guid: 78463e7a411be044693c357c21f992c3,
         type: 3}
       propertyPath: Earth
@@ -364,6 +369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186909437467042194, guid: b9e241697f4be66479f20af4e79230ff,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6186909437467042190, guid: b9e241697f4be66479f20af4e79230ff,
         type: 3}
