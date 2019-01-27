@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6186909437467042194}
   - component: {fileID: 6186909437467042190}
   - component: {fileID: 3061880309956317227}
+  - component: {fileID: 2807047383305246173}
   - component: {fileID: 4251491758261861858}
   m_Layer: 0
   m_Name: Shield
@@ -47,6 +48,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Earth: {fileID: 0}
   speed: 200
+  sound_playerRotateClip_Head: {fileID: 0}
+  sound_playerRotateClip_Body: {fileID: 0}
 --- !u!212 &3061880309956317227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -95,6 +98,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2807047383305246173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6186909437467042191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4200366937e830145b712cdc236e97cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &4251491758261861858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -105,7 +120,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.00000014901161}
