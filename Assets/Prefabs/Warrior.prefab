@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4588007447283626353}
   - component: {fileID: 1630329250452862921}
   - component: {fileID: 4349394060395534400}
+  - component: {fileID: 5565264974316820240}
   - component: {fileID: 437635882651430485}
   - component: {fileID: 7071848054631274867}
   - component: {fileID: 6773782509349572926}
-  - component: {fileID: 5565264974316820240}
   m_Layer: 0
   m_Name: Warrior
   m_TagString: Enemy
@@ -29,8 +29,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554914792358428642}
-  m_LocalRotation: {x: -0, y: -0, z: 0.6691258, w: 0.7431492}
-  m_LocalPosition: {x: -18.490149, y: -36.44121, z: 0.16774946}
+  m_LocalRotation: {x: -0, y: -0, z: 0.1131953, w: 0.99357283}
+  m_LocalPosition: {x: -40.475662, y: 5.6185894, z: 0.16774946}
   m_LocalScale: {x: 0.125, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,69 +103,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &437635882651430485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554914792358428642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 797cad593008de048b5929f7ad9719ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  earth: {fileID: 2554083274954922890, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
-  target: {fileID: 2554083274954922886, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
-  clip_explosion: {fileID: 8300000, guid: 734688914bd50a049b20c60d682474a9, type: 3}
---- !u!68 &7071848054631274867
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554914792358428642}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -17.102295, y: 10.549994}
-  - {x: -18.835281, y: 4.197426}
-  - {x: -14.434142, y: 0.5759165}
-  - {x: -0.21945143, y: -6.655154}
-  - {x: 15.495834, y: 1.0580547}
-  - {x: 18.576721, y: 5.0042505}
-  - {x: 17.07609, y: 10.512844}
-  - {x: 12.33247, y: 6.066468}
-  - {x: -12.84192, y: 6.1364145}
-  - {x: -16.973011, y: 10.67745}
---- !u!50 &6773782509349572926
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554914792358428642}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!82 &5565264974316820240
 AudioSource:
   m_ObjectHideFlags: 0
@@ -177,7 +114,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 9853bf886d91f88499f3c380dd576082,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 734688914bd50a049b20c60d682474a9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0bd2dbee8bd8ee6428990ad5ae11ff0f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -263,3 +200,67 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &437635882651430485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554914792358428642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797cad593008de048b5929f7ad9719ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  earth: {fileID: 2554083274954922890, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
+  target: {fileID: 2554083274954922886, guid: b3fec1b130224b843ab7e663f1841f0c, type: 3}
+  clip_implosion: {fileID: 8300000, guid: 0bd2dbee8bd8ee6428990ad5ae11ff0f, type: 3}
+  source_implosion: {fileID: 5565264974316820240}
+--- !u!68 &7071848054631274867
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554914792358428642}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -17.102295, y: 10.549994}
+  - {x: -18.835281, y: 4.197426}
+  - {x: -14.434142, y: 0.5759165}
+  - {x: -0.21945143, y: -6.655154}
+  - {x: 15.495834, y: 1.0580547}
+  - {x: 18.576721, y: 5.0042505}
+  - {x: 17.07609, y: 10.512844}
+  - {x: 12.33247, y: 6.066468}
+  - {x: -12.84192, y: 6.1364145}
+  - {x: -16.973011, y: 10.67745}
+--- !u!50 &6773782509349572926
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554914792358428642}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
