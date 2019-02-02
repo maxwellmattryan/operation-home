@@ -9,6 +9,7 @@ TagManager:
   - Earth
   - Bullet
   - Health Bar
+  - Ambience
   layers:
   - Default
   - TransparentFX
