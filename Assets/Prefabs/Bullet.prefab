@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6644573756658305085}
   - component: {fileID: 6398958222123698207}
+  - component: {fileID: 338190842791913534}
   - component: {fileID: 1237491747004875209}
   - component: {fileID: 2083373657040413193}
   - component: {fileID: 4487859039095012775}
@@ -48,6 +49,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 50
   bullet: {fileID: 6595463184597686501}
+  gun: {fileID: 0}
+--- !u!114 &338190842791913534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6595463184597686501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63a1497391a8d54a9a09209802f6840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
 --- !u!212 &1237491747004875209
 SpriteRenderer:
   m_ObjectHideFlags: 0
