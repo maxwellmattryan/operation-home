@@ -823,10 +823,28 @@ PrefabInstance:
       propertyPath: Earth
       value: 
       objectReference: {fileID: 547263879}
+    - target: {fileID: 7457120976293197658, guid: d12f89b5ed0cf744088888c76f73b675,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243933483035190024, guid: 9853bf886d91f88499f3c380dd576082,
+        type: 2}
+    - target: {fileID: 7457120976293197657, guid: d12f89b5ed0cf744088888c76f73b675,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243933483035190024, guid: 9853bf886d91f88499f3c380dd576082,
+        type: 2}
     - target: {fileID: 8129867256232270794, guid: d12f89b5ed0cf744088888c76f73b675,
         type: 3}
       propertyPath: camera
       value: 
       objectReference: {fileID: 1176239541}
+    - target: {fileID: 8129867256232270798, guid: d12f89b5ed0cf744088888c76f73b675,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243933483035190024, guid: 9853bf886d91f88499f3c380dd576082,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d12f89b5ed0cf744088888c76f73b675, type: 3}
