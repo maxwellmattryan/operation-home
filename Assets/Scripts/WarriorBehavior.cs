@@ -51,6 +51,7 @@ public class WarriorBehavior : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Earth"))
         {
+            
             Destroy(this.gameObject,0.5f);
             //damage earth
         }

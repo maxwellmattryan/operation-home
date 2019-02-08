@@ -7,13 +7,9 @@ public class Health : MonoBehaviour
 {
     public float lifePoints = 5;
     public Transform healthBar;
-    
-    void Start()
-    {
-       
-    }
 
-    // Update is called once per frame
+    public GameObject camera;
+
     void Update()
     {
         if (lifePoints == 0)
@@ -29,9 +25,8 @@ public class Health : MonoBehaviour
         {
             lifePoints -= 1;
             healthBar.gameObject.transform.localScale += new Vector3(-8, 0, 0);
-
+            camera.GetComponent<ShakeBehavior>().TriggerShake();
         }
-
     }
 
 }

@@ -6,6 +6,7 @@ public class BulletBehavior : MonoBehaviour
 {
     public GameObject player;
     public GameObject bullet;
+    public GameObject camera;
 
     AudioSource sound_shootSource;
 
@@ -18,13 +19,14 @@ public class BulletBehavior : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            sound_shootSource.Play();
             Shoot();
         } 
     }
 
     void Shoot()
     {
+        sound_shootSource.Play();
         Instantiate(bullet, player.transform.position, player.transform.rotation);
+        camera.GetComponent<ShakeBehavior>().TriggerShake();
     }
 }
