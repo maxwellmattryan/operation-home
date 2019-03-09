@@ -7,9 +7,9 @@ Operation H.O.M.E. was one of the resultant games for the 2019 [Global Game Jam]
 As a defender of the Earth, you must fight off invading aliens attempting to destory the planet that you know and love.
 
 #### Controls
-- A: rotate your satellite weapon laser thing counter-clockwise
-- D: rotate your satellite weapon laser thing clockwise
-- Space: fire your satellite weapon laser thing
+- A - rotate your satellite weapon laser thing counter-clockwise
+- D - rotate your satellite weapon laser thing clockwise
+- Space - fire your satellite weapon laser thing
 
 ## Build
 
